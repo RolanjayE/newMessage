@@ -1,0 +1,161 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Akshar:wght@700&family=Inter:wght@100;300;400;500&family=Lobster&family=Ms+Madi&family=PT+Sans:ital@1&family=Poppins:ital,wght@0,300;0,500;0,600;1,200&family=Quicksand:wght@300;400;500&family=Roboto&family=Roboto+Condensed&family=Roboto+Slab:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: #333;
+    width: 100%;
+    min-height: 100vh;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    overflow: hidden;
+}
+
+.container-main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.title {
+    color: gold;
+    font-size: 1.1rem;
+    padding: 1rem 0rem;
+   /* Adjust the duration and timing function as needed */
+
+}
+
+
+
+.mistake {
+    color: red;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+main {
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10px;
+    line-height: 1.7rem;
+    background-color: #403e3e;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+span {
+    font-size: 0.8rem;
+}
+
+.spe {
+    float: right;
+}
+
+.parag {
+    justify-content: center;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    animation: moveLeft 3s ease-in-out; 
+}
+
+input {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 0.3rem;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #333;
+    height: 100px;
+}
+
+.board {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 1rem;
+}
+
+
+.wrong {
+    color: rgb(255, 101, 101);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.correct {
+    color: rgb(53, 222, 53);
+}
+
+.showCon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100vh;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.center {
+    width: 300px;
+    justify-content: center;
+    color: white;
+}
+
+.center p {
+    color: #fff;
+}
+
+.intro {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.instruction {
+    font-size: 0.8rem;
+}
+
+span {
+    font-size: 1rem;
+}
+
+
+.mes {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* Styles for screens smaller than or equal to 767px (typical for mobile devices) */
+@media only screen and (max-width: 767px) {
+    /* Add your mobile-specific styles here */
+    .container-main {
+        max-width: 100%;
+        padding: 2rem;
+    }
+
+    .center {
+        width: 100%;
+        padding: 2rem;
+    }
+    /* Add more styles as needed */
+}
+
+
+.color {
+    color:  green;
+}
+
